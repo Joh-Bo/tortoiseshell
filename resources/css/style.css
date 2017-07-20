@@ -1,0 +1,135 @@
+html{
+font-size: 18px;
+line-heigt: 1.4;
+font-family: Helvetica;
+font-size: 1rem;
+}
+body{
+width: 100%;
+margin: auto;
+}
+
+/* CSS for main_content */
+#main_content{
+width: 100%;
+height: auto;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+/* CSS for the container */
+#container{
+width: 960px;
+height: 30rem;
+margin: auto;
+padding: 1rem;
+
+/* CSS for the header*/
+}
+#header{
+width: 960px;
+margin: auto;
+font-family: Helvetica;
+font-size: 1rem;
+background-color: cadetblue;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.menu_1{
+margin: 1rem 2rem;
+}
+.menu_1 img{
+height: 1.5rem;
+padding-right: 1rem;
+}
+.menu_2{
+margin: 1rem 2rem;
+}
+.menu_2 ul li{
+list-style-type: none;
+display: inline;
+padding: 1rem 2rem;
+}
+
+/* CSS for header title */
+.header_title{
+width: 450px;
+font-family: Helvetica;
+font-weight: bold;
+font-size: 2rem;
+line-height: 1.2;
+float: right;
+padding: 1.5rem 5rem;
+margin-right: -2rem;
+background-color: white;
+margin-top: 10rem;
+}
+#mid-page{
+margin-top: 500px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+#logo{
+width: 960px;
+height: 8rem;
+margin: 3rem auto;
+display: flex;
+flex-direction: row;
+}
+.logo_1{
+/*border: 2px solid pink;*/
+margin: 0 6rem;
+
+/*display: flex;
+flex-direction: row;*/
+}
+.images{
+height: 4.5rem;
+}
+.images img{
+/*border: 2px solid green;*/
+width: 3.5rem;
+padding: 0 2rem;
+}
+.logo_text{
+/*border: 2px solid yellow;*/
+text-align: center;
+}
+.sections{
+width: 960px;
+font-family: Helvetica;
+font-size: 1rem;
+margin-bottom: 5rem;
+display: flex;
+flex-direction: row;
+}
+.sections_title{
+  margin: 5%;
+}
+.title{
+background-color: cadetblue;
+color: white;
+padding: 0.5rem 1.25rem;
+width: 150px;
+font-weight: bold;
+margin-bottom: 1.5rem;
+}
+.text{
+width: 300px;
+padding-right: 5%;
+}
+
+
+
+
+/* CSS for footer*/
+#footer{
+background-color: azure;
+height: 8rem;
+bottom: 0;
+}
