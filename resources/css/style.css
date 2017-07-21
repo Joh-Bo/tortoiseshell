@@ -68,6 +68,8 @@ margin-right: -2rem;
 background-color: white;
 margin-top: 10rem;
 }
+
+/* CSS for the logos*/
 #mid-page{
 margin-top: 500px;
 display: flex;
@@ -81,24 +83,20 @@ display: flex;
 flex-direction: row;
 }
 .logo_1{
-/*border: 2px solid pink;*/
 margin: 0 6rem;
-
-/*display: flex;
-flex-direction: row;*/
 }
 .images{
 height: 4.5rem;
 }
 .images img{
-/*border: 2px solid green;*/
 width: 3.5rem;
 padding: 0 2rem;
 }
 .logo_text{
-/*border: 2px solid yellow;*/
 text-align: center;
 }
+
+/* CSS for Philosophy & Appointement section */
 .sections{
 width: 960px;
 font-family: Helvetica;
@@ -123,9 +121,6 @@ width: 300px;
 padding-right: 5%;
 }
 
-
-
-
 /* CSS for footer*/
 #footer{
 background-color: azure;
@@ -138,4 +133,34 @@ margin-bottom: -0.4rem;
 #footer > p{
 display: inline;
 padding-left: 1rem;
+}
+
+/* CSS for tablet */
+@media only screen and (min-width: 640px) and (max-width: 1024px){
+#container{
+  width: 100%;
+  height: 22rem;
+  padding: 0;
+}
+#header{
+width: 100%;
+}
+.header_title{
+margin-top: 5rem;
+margin-right: 2rem;
+padding: 0.75rem 4rem;
+font-size: 1.33rem;
+}
+#mid-page{
+margin-top: 21rem;
+}
+#logo{
+width: auto;
+}
+.logo_1{
+margin: auto;
+}
+}
+@media only screen and(max-width: 480px){
+
 }
