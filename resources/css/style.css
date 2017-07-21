@@ -7,6 +7,7 @@ font-size: 1rem;
 body{
 width: 100%;
 margin: auto;
+height: 100%;
 }
 
 /* CSS for main_content */
@@ -140,6 +141,9 @@ padding-left: 1rem;
 
 /* CSS for tablet */
 @media only screen and (min-width: 640px) and (max-width: 1024px){
+  body{
+  overflow-x: hidden;
+  }
 #container{
   width: 100%;
   height: 22rem;
@@ -176,6 +180,9 @@ margin-bottom: 3rem;
 }
 }
 @media only screen and (max-width: 480px){
+body{
+overflow-x: hidden;
+}
 #main_content{
 width: 100%;
 background-size: cover;
